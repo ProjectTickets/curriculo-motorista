@@ -1,0 +1,400 @@
+@font-face {
+    font-family: "font-padrao";
+    src: url(../fonts/Agbalumo-Regular.ttf);
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topo--background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;      
+    box-shadow: 5px 5px 100px;
+    background-image: url(../image/balao.jpg);
+    
+    
+}
+
+.topo--photo {
+    padding: 30px;
+}
+.topo--photo--img {
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px;
+    border: 3px solid black;
+    width: 100%;
+    max-width: 250px;
+    padding: 3px;
+}
+
+.topo--name {
+    font-family: "font-padrao";
+    font-size: 15px;
+    color: white;
+    margin-bottom: 20px;
+}
+.topo--name h1 {
+    font-weight: 500;
+}
+.topo--name p {
+    color: rgb(155, 152, 152);
+    margin-top: -15px;    
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid rgba(128, 128, 128, 0.452);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.topos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.topo--info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: px 150px;
+}
+
+.topo--info--mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+
+.topo--info--mail span {
+    margin-right: 5px;
+    color: rgb(68, 66, 66);
+    font-size: 25px;
+}
+
+.topo--info--phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.topo--info--phone span {
+    margin-right: 5px;
+    color: rgb(68, 66, 66);
+    font-size: 25px;
+}
+
+.topo--info--local {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.topo--info--local span {
+    margin-right: 5px;
+    margin-top: 10px;
+    color: rgb(68, 66, 66);
+    font-size: 25px;
+}
+
+.topo--info--img {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 600px;
+    margin: 30px;
+}
+
+.topo--img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px;
+    padding: 3px;
+}
+
+.dados {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "font-padrao";
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+.pessoais--img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 550px;
+    border-radius: 30px;   
+    box-shadow: 5px 5px 20px; 
+    padding: 3px;
+}
+
+.dados--{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 40px;
+}
+
+.dados--pessoais {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dados--pessoais--full {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+
+.dados--pessoais span {
+    margin-right: 5px;
+    color: rgb(68, 66, 66);
+    font-size: 25px;
+}
+
+.dados--pessoais--adicionais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;    
+}
+
+.adicionais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 30px;
+    margin-top: -20px;
+}
+
+#b {
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.formacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-family: "font-padrao";
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#formacao--b {
+    font-size: 25px;
+}
+
+.cnh {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.cnh p {
+    font-weight: 100;
+}
+
+.cnh--text {
+    color: rgb(71, 70, 70);
+    margin-top: -20px;
+}
+
+.formacao--row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img--formacao {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 550px;
+    border-radius: 30px; 
+    box-shadow: 5px 5px 20px;
+    padding: 3px;
+}
+
+.experiencia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "font-padrao";
+    width: 90%;
+
+    
+}
+
+.experiencia--row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.img--experiencia {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px;
+    padding: 3px;
+}
+
+.experiencia--column {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+.mais--informacoes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+.mais--informacoes b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "font-padrao";
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+.mais {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.mais--video {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: 15px double rgba(34, 33, 33, 0.822);
+    box-shadow: 5px 5px 20px;
+    border-radius: 30px;
+    width: 300px;
+}
+
+.mais--img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 550px;
+    border-radius: 30px; 
+    box-shadow: 5px 5px 20px;
+    padding: 3px;
+}
+
+.img--end {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.imgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 550px;
+    border-radius: 30px; 
+    box-shadow: 5px 5px 20px;
+    padding: 3px;
+}
